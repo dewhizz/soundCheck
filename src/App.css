@@ -1,0 +1,179 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #abb1b4;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.we{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #001f00;
+  text-decoration: white;
+}
+
+.sign{
+  background-color:  #FFD700 ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text{
+  font-family: serif;
+
+}
+
+.f-heads{
+  background-color: rgb(0, 0, 0);
+  font-family:Raleway ;
+
+}
+.fein{
+  background-color: Champagne (#F1E2B8)
+
+  ;
+}
+
+.rate{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: darkcyan;
+  
+}
+/* styles.css or inside App.css */
+
+.react-chat-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.App-header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #333;
+}
+/* styles.css or inside App.css */
+
+.react-chat-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.App-header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #333;
+}
+
+.f-heads {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.contact-method {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contact-text {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.location-text {
+    color: #ffffff;
+    font-size: 18px;
+    font-style: italic;
+}
+
+#flinks {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#flinks:hover {
+    color: #f39c12;
+    text-decoration: underline;
+}
+
+/* Footer Styles (Footer.css) */
+.footer-container {
+  background-color: #343a40; /* Dark background */
+  color: #fff; /* White text color */
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 1200px; /* Limit the maximum width of the container */
+  margin: 0 auto; /* Center the container */
+}
+
+.footer-container a {
+  color: #ffc107; /* Yellow color for links */
+  text-decoration: none;
+}
+
+.footer-container a:hover {
+  color: #ffcc00; /* Lighter yellow on hover */
+}
+
+.f-heads {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer .col-md-4 {
+  margin-bottom: 30px;
+}
+
+footer img {
+  transition: transform 0.3s ease;
+}
+
+footer img:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+}
